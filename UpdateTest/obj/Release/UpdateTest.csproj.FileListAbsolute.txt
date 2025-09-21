@@ -1,0 +1,15 @@
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\UpdateTest.exe.config
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\UpdateTest.exe
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\UpdateTest.pdb
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\Updating.exe
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\Updating.pdb
+D:\VSPro\002\UpdateTest\UpdateTest\bin\Release\Updating.exe.config
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.csproj.AssemblyReference.cache
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.Form1.resources
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.Properties.Resources.resources
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.csproj.GenerateResource.cache
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.csproj.CoreCompileInputs.cache
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.csproj.Up2Date
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.exe
+D:\VSPro\002\UpdateTest\UpdateTest\obj\Release\UpdateTest.pdb
