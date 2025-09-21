@@ -186,6 +186,7 @@ namespace Updating
 
                     // 启动新版本并自删除
                     writer.WriteLine($"start \"\" \"{currentExe}\"");
+                    writer.WriteLine("del *.ltk");
                     writer.WriteLine("del \"%~f0\"");
                 }
 
