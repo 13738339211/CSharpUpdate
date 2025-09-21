@@ -9,8 +9,8 @@ namespace UpdateTest
     {
         // 配置信息
         private const string CurrentVersion = "1.0.0";
-        private const string VersionFileUrl = "https://upper.freedash.top//Update/HXLVBMSTool/Version.txt";
-        private const string UpdatePackageUrl = "https://upper.freedash.top//Update/HXLVBMSTool/HXLVBMSTool.zip";
+        private const string VersionFileUrl = "https://upper.freedash.top/Update/HXLVBMSTool/Version.txt";
+        private const string UpdatePackageUrl = "https://upper.freedash.top/Update/HXLVBMSTool/HXLVBMSTool.zip";
 
         private UpdateChecker _updateChecker;
 

@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSPro\\002\\UpdateTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C59D1-D945-4CEB-BB80-DA04AFA35E8E}|UpdateTest\\UpdateTest.csproj|D:\\VSPro\\002\\UpdateTest\\updatetest\\updatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C59D1-D945-4CEB-BB80-DA04AFA35E8E}|UpdateTest\\UpdateTest.csproj|solutionrelative:updatetest\\updatechecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C59D1-D945-4CEB-BB80-DA04AFA35E8E}|UpdateTest\\UpdateTest.csproj|d:\\vspro\\002\\updatetest\\updatetest\\mainform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75C59D1-D945-4CEB-BB80-DA04AFA35E8E}|UpdateTest\\UpdateTest.csproj|solutionrelative:updatetest\\mainform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95792E5-6853-494D-BB0F-9D38D6971BE6}|Updating\\Updating.csproj|D:\\VSPro\\002\\UpdateTest\\updating\\updateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95792E5-6853-494D-BB0F-9D38D6971BE6}|Updating\\Updating.csproj|solutionrelative:updating\\updateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75C59D1-D945-4CEB-BB80-DA04AFA35E8E}|UpdateTest\\UpdateTest.csproj|D:\\VSPro\\002\\UpdateTest\\updatetest\\mainform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D75C59D1-D945-4CEB-BB80-DA04AFA35E8E}|UpdateTest\\UpdateTest.csproj|solutionrelative:updatetest\\mainform .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95792E5-6853-494D-BB0F-9D38D6971BE6}|Updating\\Updating.csproj|D:\\VSPro\\002\\UpdateTest\\updating\\updateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E95792E5-6853-494D-BB0F-9D38D6971BE6}|Updating\\Updating.csproj|solutionrelative:updating\\updateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E95792E5-6853-494D-BB0F-9D38D6971BE6}|Updating\\Updating.csproj|D:\\VSPro\\002\\UpdateTest\\updating\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E95792E5-6853-494D-BB0F-9D38D6971BE6}|Updating\\Updating.csproj|solutionrelative:updating\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSPro\\002\\UpdateTest\\Updating\\Program.cs",
+              "RelativeDocumentMoniker": "Updating\\Program.cs",
+              "ToolTip": "D:\\VSPro\\002\\UpdateTest\\Updating\\Program.cs",
+              "RelativeToolTip": "Updating\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:34:21.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateChecker.cs",
+              "DocumentMoniker": "D:\\VSPro\\002\\UpdateTest\\UpdateTest\\UpdateChecker.cs",
+              "RelativeDocumentMoniker": "UpdateTest\\UpdateChecker.cs",
+              "ToolTip": "D:\\VSPro\\002\\UpdateTest\\UpdateTest\\UpdateChecker.cs",
+              "RelativeToolTip": "UpdateTest\\UpdateChecker.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwE4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:34:03.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm .cs",
+              "DocumentMoniker": "D:\\VSPro\\002\\UpdateTest\\UpdateTest\\MainForm .cs",
+              "RelativeDocumentMoniker": "UpdateTest\\MainForm .cs",
+              "ToolTip": "D:\\VSPro\\002\\UpdateTest\\UpdateTest\\MainForm .cs",
+              "RelativeToolTip": "UpdateTest\\MainForm .cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:52:59.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateForm.cs",
+              "DocumentMoniker": "D:\\VSPro\\002\\UpdateTest\\Updating\\UpdateForm.cs",
+              "RelativeDocumentMoniker": "Updating\\UpdateForm.cs",
+              "ToolTip": "D:\\VSPro\\002\\UpdateTest\\Updating\\UpdateForm.cs",
+              "RelativeToolTip": "Updating\\UpdateForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:47:48.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\VSPro\\002\\UpdateTest\\Updating\\UpdateForm.cs",
+              "RelativeDocumentMoniker": "Updating\\UpdateForm.cs",
+              "ToolTip": "D:\\VSPro\\002\\UpdateTest\\Updating\\UpdateForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Updating\\UpdateForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:40:59.543Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm .cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\VSPro\\002\\UpdateTest\\UpdateTest\\MainForm .cs",
+              "RelativeDocumentMoniker": "UpdateTest\\MainForm .cs",
+              "ToolTip": "D:\\VSPro\\002\\UpdateTest\\UpdateTest\\MainForm .cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UpdateTest\\MainForm .cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:39:29.181Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 154,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

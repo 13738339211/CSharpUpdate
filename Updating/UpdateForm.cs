@@ -109,6 +109,13 @@ namespace Updating
             {
                 using (ZipFile zip = new ZipFile(_downloadPath))
                 {
+                    // 尝试使用写死的密码，如果不需要密码就设为null
+                    string fixedPassword = "Hx.123456"; // 你的写死密码
+                    if (!string.IsNullOrEmpty(fixedPassword))
+                    {
+                        zip.Password = fixedPassword;
+                    }
+
                     int totalEntries = (int)zip.Count;
                     int processedEntries = 0;
 
@@ -117,26 +124,20 @@ namespace Updating
                         if (entry.IsFile)
                         {
                             string extractPath = Path.Combine(Application.StartupPath, entry.Name);
-
-                            // 确保目标目录存在
                             string directory = Path.GetDirectoryName(extractPath);
-                            if (!Directory.Exists(directory))
-                            {
-                                Directory.CreateDirectory(directory);
-                            }
 
-                            // 解压文件
+                            if (!Directory.Exists(directory))
+                                Directory.CreateDirectory(directory);
+
                             using (FileStream stream = new FileStream(extractPath, FileMode.Create))
                             using (Stream zipStream = zip.GetInputStream(entry))
                             {
                                 zipStream.CopyTo(stream);
                             }
 
-                            // 更新解压进度
                             processedEntries++;
                             int progress = (int)((double)processedEntries / totalEntries * 100);
 
-                            // 跨线程更新UI
                             this.Invoke(new Action(() =>
                             {
                                 lblStatus.Text = $"解压文件中... ({processedEntries}/{totalEntries})";
@@ -146,7 +147,6 @@ namespace Updating
                     }
                 }
 
-                // 解压完成，准备重启
                 this.Invoke(new Action(() =>
                 {
                     lblStatus.Text = "更新完成，准备重启应用...";
@@ -157,7 +157,8 @@ namespace Updating
             {
                 this.Invoke(new Action(() =>
                 {
-                    MessageBox.Show($"解压失败: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    string errorMsg = "解压失败: " + ex.Message;
+                    MessageBox.Show(errorMsg, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }));
             }
         }
