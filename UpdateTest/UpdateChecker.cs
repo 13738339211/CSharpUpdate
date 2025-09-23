@@ -42,12 +42,15 @@ namespace Updating
             try
             {
                 string latestVersion = await GetLatestVersionAsync();
+                string changelog = await GetChangelogAsync(latestVersion); // 获取更新日志
 
                 if (IsNewVersionAvailable(latestVersion))
                 {
-                    // 启动时的提示框
                     var result = MessageBox.Show(
-                        $"发现新版本 {latestVersion}，是否立即更新？\n\n当前版本: {_currentVersion}\n最新版本: {latestVersion}",
+                        $"发现新版本 {latestVersion}，是否立即更新？\n\n" +
+                        $"当前版本: {_currentVersion}\n" +
+                        $"最新版本: {latestVersion}\n\n" +
+                        $"更新内容：\n{changelog}",
                         "软件更新", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                     return result == DialogResult.Yes;
@@ -56,7 +59,6 @@ namespace Updating
             }
             catch (Exception)
             {
-                // 启动时静默失败，不显示错误
                 return false;
             }
         }
@@ -113,6 +115,24 @@ namespace Updating
 
             Process.Start(batchFile);
             Environment.Exit(0);
+        }
+
+        // 从服务器获取更新日志
+        private async Task<string> GetChangelogAsync(string version)
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    string changelogUrl = _versionFileUrl.Replace("Version.txt", $"Changelog_{version}.txt");
+                    string changelog = await client.GetStringAsync(changelogUrl);
+                    return changelog.Trim();
+                }
+            }
+            catch
+            {
+                return "• 修复已知问题\n• 优化性能"; // 默认日志
+            }
         }
     }
 }

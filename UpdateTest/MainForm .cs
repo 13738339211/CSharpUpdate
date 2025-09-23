@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Updating;
@@ -23,6 +24,23 @@ namespace UpdateTest
             
             // 启动时自动检查更新
             CheckForUpdateOnStartup();
+        }
+
+        private async void Form1_Load(object sender, EventArgs e)
+        {
+            // 显示当前版本
+            txtb_CurrVer.Text = CurrentVersion;
+
+            try
+            {
+                // 异步获取最新版本号
+                await _updateChecker.CheckForUpdateAsync();
+                txtb_LatestVer.Text = _updateChecker.LatestVersion ?? "获取失败";
+            }
+            catch
+            {
+                txtb_LatestVer.Text = "获取失败";
+            }
         }
 
         // 启动时检查更新
@@ -103,23 +121,6 @@ namespace UpdateTest
         {
             UpdateForm updateForm = new UpdateForm(CurrentVersion, VersionFileUrl, UpdatePackageUrl);
             updateForm.ShowDialog();
-        }
-
-        private async void Form1_Load(object sender, EventArgs e)
-        {
-            // 显示当前版本
-            txtb_CurrVer.Text = CurrentVersion;
-
-            try
-            {
-                // 异步获取最新版本号
-                await _updateChecker.CheckForUpdateAsync();
-                txtb_LatestVer.Text = _updateChecker.LatestVersion ?? "获取失败";
-            }
-            catch
-            {
-                txtb_LatestVer.Text = "获取失败";
-            }
         }
     }
 }

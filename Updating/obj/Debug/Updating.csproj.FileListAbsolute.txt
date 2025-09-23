@@ -10,3 +10,15 @@ D:\VSPro\002\UpdateTest\Updating\obj\Debug\Updating.pdb
 D:\VSPro\002\UpdateTest\Updating\obj\Debug\Updating.UpdateForm.resources
 D:\VSPro\002\UpdateTest\Updating\bin\Debug\ICSharpCode.SharpZipLib.dll
 D:\VSPro\002\UpdateTest\Updating\obj\Debug\Updating.csproj.Up2Date
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\bin\Debug\Updating.exe.config
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\bin\Debug\Updating.exe
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\bin\Debug\Updating.pdb
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.csproj.AssemblyReference.cache
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.UpdateForm.resources
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.Properties.Resources.resources
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.csproj.GenerateResource.cache
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.csproj.CoreCompileInputs.cache
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.csproj.Up2Date
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.exe
+D:\VSPro\VSPro\002\CSharpUpdate\Updating\obj\Debug\Updating.pdb
